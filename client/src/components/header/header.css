@@ -1,0 +1,45 @@
+.header{
+  margin-top: 60px;
+}
+
+.headerTitles{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lora', serif;
+  color: #444;
+  transition: all 1s ease;
+
+}
+.headerTitles-d{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lora', serif;
+  color: #666;
+  transition: all 1s ease;
+}
+
+.headerTitleSm{
+  position: absolute;
+  top: 18%;
+  font-size: 20px;
+  z-index: 2;
+
+}
+
+.headerTitleLg{
+  position: absolute;
+  top: 19%;
+  font-size: 100px;
+  z-index: 2;
+
+}
+
+.headerImg{
+  width: 100%;
+  height: 450px;
+  margin-top: 80px;
+  object-fit: cover;
+  opacity: 0.6;
+}
